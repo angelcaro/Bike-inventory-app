@@ -29,8 +29,8 @@
 		8912548A1C4C1D470072E814 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		8912548C1C4C1E660072E814 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		8912548E1C4C24B00072E814 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
-		897D57171C4FDF1800310F11 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
-		89D8E1E71C4D852F009B3749 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		897D57171C4FDF1800310F11 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageStore.swift; path = ../ImageStore.swift; sourceTree = "<group>"; };
+		89D8E1E71C4D852F009B3749 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 		89E69DBA1C4D394D00012905 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemCell.swift; path = ../ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,8 +48,6 @@
 		8912546C1C4C1CAA0072E814 = {
 			isa = PBXGroup;
 			children = (
-				89D8E1E71C4D852F009B3749 /* DetailViewController.swift */,
-				897D57171C4FDF1800310F11 /* ImageStore.swift */,
 				891254771C4C1CAA0072E814 /* BikeRecords */,
 				891254761C4C1CAA0072E814 /* Products */,
 			);
@@ -67,7 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				891254781C4C1CAA0072E814 /* AppDelegate.swift */,
+				897D57171C4FDF1800310F11 /* ImageStore.swift */,
 				8912548A1C4C1D470072E814 /* ItemsViewController.swift */,
+				89D8E1E71C4D852F009B3749 /* DetailViewController.swift */,
 				89E69DBA1C4D394D00012905 /* ItemCell.swift */,
 				8912548C1C4C1E660072E814 /* Item.swift */,
 				8912548E1C4C24B00072E814 /* ItemStore.swift */,
